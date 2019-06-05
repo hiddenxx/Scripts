@@ -70,8 +70,7 @@ def printStatus(url, status):
         color = RED
     if status not in statusCodeDict:
         statusCodeDict[status] = "Unknown Code"
-    print(color + "[" + statusCodeDict[status] + "]" + ENDC + ' ' + url)
-
+        print(color + "[" + statusCodeDict[status] + "]" + ENDC + ' ' + url)
 
 if __name__ == '__main__':
     main()
