@@ -1,0 +1,6 @@
+"Config file" : [{
+    "homepage":"url",
+    "crawled_file": "filename",
+    "queue_file": "filename",
+    "project_folder": "folder name"
+ }]
