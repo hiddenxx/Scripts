@@ -11,8 +11,9 @@ random.seed(datetime.datetime.now())
 """
 Get Google search with Wildcards as a requested URL , and then from there recursively find the links.
 """
-
-
+api_list = []
+with open(api_list) as apilist:
+    apilist.readline()
 # Retrieves a list of all Internal links found on a page
 def getInternalLinks(bs, includeUrl):
     includeUrl = '{}://{}'.format(urlparse(includeUrl).scheme, urlparse(includeUrl).netloc)
