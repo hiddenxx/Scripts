@@ -1,4 +1,0 @@
-http://pubproxy.com/api/proxy?format=json?type=socks5
-
-{"URL":"http://pubproxy.com/api/proxy" , "method":"api" , "Payload":{"type":"http","speed":10,"google":True,"https":True,"Post":True}}
-{"URL":"https://sslproxies.org/" , "method":"id=proxylisttable","Payload":{} , }
